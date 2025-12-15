@@ -1,9 +1,82 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>My GitHub Page</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>John Doe - Portfolio & Profile</title>
+    <link rel="stylesheet" href="style.css"> 
 </head>
 <body>
-  <h1>Hello World, my site is live!</h1>
+
+    <header class="main-header">
+        <nav class="container">
+            <h1 class="logo">John Doe</h1>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="about" class="about-section container">
+        <div class="profile-image-container">
+            <img src="profile.jpg" alt="John Doe Profile Picture" class="profile-image"> 
+        </div>
+        
+        <div class="about-content">
+            <h2>Hello, I'm John Doe 👋</h2>
+            <p class="tagline">Web Developer | Designer | Problem Solver</p>
+            <p>I am a passionate and results-driven developer with 5 years of experience building modern, responsive, and user-friendly web applications. My expertise lies in HTML5, CSS3, and JavaScript, with a strong focus on clean, semantic code. I enjoy turning complex problems into simple, beautiful, and intuitive designs.</p>
+
+            <div class="social-links">
+                <a href="https://github.com/yourusername" target="_blank">GitHub</a> | 
+                <a href="https://linkedin.com/in/yourusername" target="_blank">LinkedIn</a> | 
+                <a href="mailto:youremail@example.com">Email Me</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="portfolio" class="portfolio-section">
+        <div class="container">
+            <h2>Featured Projects</h2>
+            <div class="project-grid">
+                
+                <div class="project-card">
+                    <h3>E-commerce Redesign</h3>
+                    <p>A responsive front-end redesign of a major online retail platform, focusing on performance and user experience.</p>
+                    <a href="#" target="_blank" class="project-link">View Project</a>
+                </div>
+
+                <div class="project-card">
+                    <h3>Data Visualization Dashboard</h3>
+                    <p>Built a static dashboard using HTML/CSS to display simulated real-time data with clean, modern charts.</p>
+                    <a href="#" target="_blank" class="project-link">View Project</a>
+                </div>
+
+                <div class="project-card">
+                    <h3>Personal Blog Template</h3>
+                    <p>Designed and coded a clean, minimalist static blog template suitable for various content creators.</p>
+                    <a href="#" target="_blank" class="project-link">View Project</a>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <h2>Get In Touch</h2>
+            <p>I'm currently available for freelance opportunities and collaborations. Feel free to send me a message!</p>
+            <a href="mailto:youremail@example.com" class="button">Send Email</a>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 John Doe. Built with HTML & CSS.</p>
+        </div>
+    </footer>
+
 </body>
 </html>
